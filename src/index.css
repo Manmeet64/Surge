@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.card.away {
+  opacity: 0;
+  transform: translateY(-120vh) rotate(-48deg);
+}
